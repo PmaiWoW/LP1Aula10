@@ -6,10 +6,7 @@ namespace Agents
 {
     public class Player : Agent
     {
-        public Player(string name) : base(name)
-        {
-
-        }
+        public Player(string name) : base(name) { }
 
         public override char Move()
         {
